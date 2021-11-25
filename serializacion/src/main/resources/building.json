@@ -1,0 +1,47 @@
+{
+  "address": "Calle Falsa, 3",
+  "cp": 31000,
+  "date": "18/12/1980",
+  "floors": [
+    {
+      "number": 1,
+      "apartments": [
+        {
+          "class": "oficina",
+          "door": "A",
+          "owners": [
+            "Bob Esponja"
+          ]
+        },
+        {
+          "class": "loft",
+          "door": "B",
+          "owners": [
+            "Mama Pig",
+            "Papa Pig"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "apartments": [
+        {
+          "class": "piso",
+          "door": "A",
+          "owners": [
+            "Marge Simpson"
+          ]
+        },
+        {
+          "class": "loft",
+          "door": "B",
+          "owners": [
+            "Pocoyo",
+            "Pato"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Doce de Octubre",
+  "cp": 31000,
+  "creation_date": "18/12/1980",
+  "sections": [
+    {
+      "name": "Traumatología",
+      "rooms": [
+        {
+          "number": 101,
+          "class": "Doble",
+          "patients": [
+            "Bob Esponja",
+            "Eli"
+          ]
+        },
+        {
+          "number": 102,
+          "class": "Simple",
+          "patients": [
+            "Bart Simpson"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UCI",
+      "rooms": [
+        {
+          "number": 202,
+          "class": "Doble",
+          "patients": [
+            "Peppa Pig"
+          ]
+        }
+      ]
+    }
+  ]
+}
