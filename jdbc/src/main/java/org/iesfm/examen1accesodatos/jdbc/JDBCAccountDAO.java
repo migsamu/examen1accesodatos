@@ -12,9 +12,9 @@ import java.util.List;
 public class JDBCAccountDAO implements AccountDAO {
 
     private static final String SELECT_ACCOUNTS_BY_NIF =
-            "SELECT a.* FROM Account a" +
-                    "INNER JOIN Customer c ON c.nif=a.owner_id" +
-                    "WHERE c.nif=:nif";
+            "SELECT a.* FROM Account a " +
+                    " INNER JOIN Customer c ON c.nif=a.owner_id " +
+                    " WHERE c.nif=:nif";
     ;
     private static final String INSERT_ACCOUNT =
             "INSERT INTO Account (iban, owner_id, balance,open_date) VALUES (:iban, :ownerId, :balance, :openDate)";

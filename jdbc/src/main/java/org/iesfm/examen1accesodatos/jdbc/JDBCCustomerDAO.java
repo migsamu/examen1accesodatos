@@ -11,9 +11,9 @@ public class JDBCCustomerDAO implements CustomerDAO {
 
 
     private static final String SELECT_CUSTOMER_BY_IBAN =
-            "SELECT c.* FROM Customer c" +
-                    "INNER JOIN Account a ON c.nif=a.owner_id" +
-                    "WHERE a.iban=:iban";
+            "SELECT c.* FROM Customer c " +
+                    " INNER JOIN Account a ON c.nif=a.owner_id " +
+                    " WHERE a.iban=:iban";
 
     private static final String UPDATE_CUSTOMER_BY_NIF =
             "UPDATE Customer SET name =:name, surname=:surname, cp=:cp WHERE nif=:nif";
